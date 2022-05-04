@@ -1,0 +1,141 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card-image {
+  display: flex;
+  border-radius: 8px;
+  padding: 8px;
+  max-height: 500px;
+  max-width: 280px;
+  box-shadow: 1px 2px 1px rgb(0 0 0 / 19%);
+  flex-direction: column;
+}
+
+.save-button {
+  color: #696969;
+  float: right;
+  float: right;
+  margin: 18px 0px;
+  cursor: pointer;
+}
+
+.card-container {
+  margin: 18px;
+}
+
+.card-details {
+  margin: 0 auto;
+  margin-top: 30px;
+}
+
+.player-img {
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: 100%;
+  height: 240px;
+  max-width: 240px;
+  min-width: 220px;
+}
+
+.card-attributes {
+  margin: auto;
+}
+
+.player-name {
+  text-align: center;
+}
+
+.player-name > h3 {
+  margin: 0;
+}
+
+.detail-col {
+  width: 33.33%;
+  flex: 1;
+}
+
+.align-center {
+  text-align: center;
+}
+
+@media screen and (min-width: 769px) {
+  .card-image {
+    min-width: 260px;
+    min-height: 440px;
+    max-height: 380px;
+    max-width: 250px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .card-image {
+    min-width: 220px;
+    min-height: 400px;
+    max-height: 380px;
+    max-width: 240px;
+  }
+}
+
+.input-text {
+  height: 28px;
+}
+
+/* GitHub button from CSS Scan */
+.button-4 {
+  appearance: none;
+  background-color: #fafbfc;
+  border: 1px solid rgba(27, 31, 35, 0.15);
+  border-radius: 6px;
+  box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  box-sizing: border-box;
+  color: #24292e;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  list-style: none;
+  padding: 6px 16px;
+  position: relative;
+  transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: middle;
+  white-space: nowrap;
+  word-wrap: break-word;
+}
+
+.button-4:hover {
+  background-color: #f3f4f6;
+  text-decoration: none;
+  transition-duration: 0.1s;
+}
+
+.button-4:disabled {
+  background-color: #fafbfc;
+  border-color: rgba(27, 31, 35, 0.15);
+  color: #959da5;
+  cursor: default;
+}
+
+.button-4:active {
+  background-color: #edeff2;
+  box-shadow: rgba(225, 228, 232, 0.2) 0 1px 0 inset;
+  transition: none 0s;
+}
+
+.button-4:focus {
+  outline: 1px transparent;
+}
+
+.button-4:before {
+  display: none;
+}
+
+.button-4:-webkit-details-marker {
+  display: none;
+}
